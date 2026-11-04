@@ -12,7 +12,7 @@
 
 ## 🔗 Project Links
 
-- **GitHub Repository:** `[Insert your GitHub Repo Link here or leave as: https://github.com/your-username/voxaction-ai]`
+- **GitHub Repository:** https://github.com/Lakshay0306/Vocal-Lab-Hackathon
 - **Live Demo URL:** `[Insert Live Deployed URL or run locally on http://localhost:3000]`
 - **Google Drive Submission Folder:** `[Insert your Google Drive Folder Link]`
 - **Source Code Archive:** `voxaction-ai-submission.zip` (included in this Drive folder)
