@@ -1,0 +1,21 @@
+{
+  "name": "voxaction-ai",
+  "version": "1.0.0",
+  "description": "Autonomous Voice-to-Action OS for Hackathons - Speak. Understand. Act.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "voice-ai",
+    "speech-to-text",
+    "text-to-speech",
+    "llm",
+    "gemini",
+    "autonomous-agent",
+    "voice-to-action"
+  ],
+  "author": "Hackathon Participant",
+  "license": "MIT"
+}

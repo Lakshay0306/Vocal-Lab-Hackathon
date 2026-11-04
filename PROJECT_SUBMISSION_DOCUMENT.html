@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VoxAction AI — Official Hackathon Project Submission Document</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1e293b;
+      max-width: 860px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+    h1 { color: #0284c7; border-bottom: 2px solid #0284c7; padding-bottom: 8px; margin-top: 0; }
+    h2 { color: #0f172a; border-bottom: 1px solid #e2e8f0; padding-bottom: 6px; margin-top: 28px; }
+    h3 { color: #334155; margin-top: 20px; }
+    code, pre {
+      background: #f1f5f9;
+      font-family: 'JetBrains Mono', Consolas, Monaco, monospace;
+      font-size: 13px;
+      border-radius: 4px;
+    }
+    code { padding: 2px 6px; color: #0f172a; }
+    pre { padding: 14px; overflow-x: auto; border: 1px solid #cbd5e1; }
+    table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+    th, td { border: 1px solid #cbd5e1; padding: 10px 14px; text-align: left; font-size: 13.5px; }
+    th { background: #f8fafc; font-weight: 600; color: #334155; }
+    blockquote {
+      margin: 16px 0;
+      padding: 12px 18px;
+      background: #f0f9ff;
+      border-left: 4px solid #0284c7;
+      color: #0369a1;
+      font-style: italic;
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: bold;
+      border-radius: 4px;
+      background: #e0f2fe;
+      color: #0369a1;
+    }
+    @media print {
+      body { margin: 20px; max-width: 100%; color: #000; }
+      pre, code { border-color: #aaa; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎙️ PROJECT SUBMISSION: VoxAction AI (v2.0)</h1>
+  <p><strong>College Voice AI Hackathon (6-Hour Solo Sprint)</strong> • <em>Speak. Understand. Act.</em></p>
+  <p><strong>Developer:</strong> Solo Participant &nbsp;|&nbsp; <strong>Date:</strong> 04-11-2026</p>
+
+  <h2>🔗 Project Submission Links</h2>
+  <table>
+    <tr><th>Resource</th><th>Link / Value</th></tr>
+    <tr><td><strong>Project Name</strong></td><td>VoxAction AI — Autonomous Voice-to-Action OS</td></tr>
+    <tr><td><strong>Google Drive Folder</strong></td><td><em>[Insert your Google Drive Link here]</em></td></tr>
+    <tr><td><strong>Source Code Archive</strong></td><td><code>voxaction-ai-submission.zip</code> (in Drive folder)</td></tr>
+    <tr><td><strong>Local Demo URL</strong></td><td><code>http://localhost:3000</code></td></tr>
+    <tr><td><strong>GitHub Repository</strong></td><td><code>https://github.com/your-username/voxaction-ai</code></td></tr>
+  </table>
+
+  <h2>📌 1. What We Built & How It Works</h2>
+  <blockquote>"Build an AI that listens to a voice, understands what the person needs, and does something real about it. Chat alone is not enough — the app must create, update, send, or control."</blockquote>
+  <p>
+    <strong>VoxAction AI</strong> is an autonomous Voice-to-Action operating system that bridges voice intent directly with real software execution. Rather than acting as a simple text chatbot, it converts spoken compound sentences into immediate, visible state mutations across 4 core problem tracks.
+  </p>
+  <h3>The 4-Step Pipeline:</h3>
+  <ol>
+    <li><strong>Voice In:</strong> High-performance browser Web Speech API (<code>webkitSpeechRecognition</code>) with Spacebar walkie-talkie push-to-talk, real-time Canvas audio frequency waveform, and multilingual recognition (English, Hindi, Hinglish).</li>
+    <li><strong>AI Understands:</strong> Multi-intent compound sentence parser powered by a dual-engine architecture: Google Gemini 1.5 Flash structured JSON planning + high-speed offline semantic rule parser (&lt;15ms latency).</li>
+    <li><strong>Real Action:</strong> Financial ledger logging with dynamic doughnut charts, task board with alarm notifications and celebratory confetti, campus grievance tickets (<code>TK-1084</code>), meeting action item extraction with Minutes of Meeting (MoM) email drafts, oral viva exam scoring (1-10), and live Webhook/Google Sheet sync.</li>
+    <li><strong>Voice Out:</strong> SpeechSynthesis speaking natural conversational confirmations with synthesized Web Audio chimes, emergency sirens, and fanfare.</li>
+  </ol>
+
+  <h2>🛠️ 2. Contribution & Work Done</h2>
+  <p>This project was authored 100% from scratch during the 6-hour hackathon as a solo participant:</p>
+  <ul>
+    <li>Engineered the zero-install Node.js HTTP server and API proxy architecture.</li>
+    <li>Developed the Web Audio API synthetic sound synthesizer (harmonic chimes, alert sirens, celebration fanfare with zero MP3 files).</li>
+    <li>Implemented the dual-engine AI pipeline (Gemini API schema prompt + local semantic NLP grammar engine).</li>
+    <li>Constructed interactive dashboards: Expense Ledger, Task Reminders, Grievance Desk, Meeting MoM, Viva Examiner, and Emergency Medical Triage.</li>
+    <li>Added real data export pipelines (CSV download, printable PDF generation, and Webhook HTTP POST dispatch).</li>
+  </ul>
+
+  <h2>⚡ 3. Key Features</h2>
+  <table>
+    <tr><th>Feature</th><th>Description</th><th>Problem Track</th></tr>
+    <tr><td><strong>Slide 2 Hero Execution</strong></td><td>Exact challenge: <em>"Spent 250 rupees on lunch and remind me to submit form on Friday"</em> logs ₹250 under Food, schedules the task, and confirms via voice.</td><td>Voice to Action</td></tr>
+    <tr><td><strong>Meeting to MoM</strong></td><td>Transcribes spoken meetings into assigned tasks with owners & deadlines, and formats ready-to-dispatch email minutes.</td><td>Voice to Action</td></tr>
+    <tr><td><strong>AI Viva Exam Trainer</strong></td><td>AI asks technical viva questions; student speaks answers; AI scores them /10 with strengths and improvement areas.</td><td>Learning</td></tr>
+    <tr><td><strong>Emergency Triage</strong></td><td>Spoken distress triggers flashing Code Red alert, siren sound, critical ticket, and first-aid instructions.</td><td>Real World</td></tr>
+    <tr><td><strong>Webhook / Sheet Sync</strong></td><td>Dispatches real HTTP POST payloads to external Google Sheets or Discord webhooks.</td><td>Real Action</td></tr>
+    <tr><td><strong>Spacebar Push-to-Talk</strong></td><td>Press and hold Spacebar to talk like a walkie-talkie.</td><td>Accessibility</td></tr>
+  </table>
+
+  <h2>💡 4. Technical Decisions & Challenges</h2>
+  <ul>
+    <li><strong>Zero NPM Dependency Architecture:</strong> Replaced heavy npm frameworks with standard Node standard library modules and modern browser ES Modules, eliminating compilation errors and ensuring instant startup.</li>
+    <li><strong>Dual-Engine Offline Fallback:</strong> Solved hackathon Wi-Fi latency and rate limit risks by embedding a local semantic NLP grammar parser that executes in under 15ms.</li>
+    <li><strong>Web Audio Synthetic Sound Engine:</strong> Avoided missing audio file bugs by synthesizing frequencies directly in code using <code>OscillatorNode</code> and <code>GainNode</code>.</li>
+  </ul>
+
+  <h2>🏁 How to Run Locally</h2>
+  <pre>1. Extract voxaction-ai-submission.zip
+2. On Windows: Double-click start.bat
+   On macOS/Linux: Run "node server.js"
+3. Open http://localhost:3000 in Chrome or Edge</pre>
+
+</body>
+</html>
